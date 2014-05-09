@@ -1,0 +1,31 @@
+.content_div {
+  background-image: url('1.jpg');
+  height: 500px;
+}
+
+.sub_heading {
+  font: normal 40px 'SegoeUILight', Arial, Helvetica, sans-serif;
+  color: #020202;
+}
+.text_content {
+  font-size: 18px;
+  color: #020202;
+  text-align: justify;
+}
+
+.logo {
+  margin-left: 20px;
+}
+
+.slide_caption {
+  font: normal 40px 'SegoeUILight', Arial, Helvetica, sans-serif;
+  padding-bottom: 150px;
+}
+
+.gallary_photo {
+  text-align: center;
+}
+
+.gallary_content {
+  background-color: #F4F4FA
+}
