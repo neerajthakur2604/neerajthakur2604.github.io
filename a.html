@@ -1,0 +1,31 @@
+
+
+<HTML>
+  
+<HEAD>
+<TITLE>Java Popup Window Example</TITLE>
+<SCRIPT language="JavaScript" type="text/javascript">
+
+var newwindow = ''
+function popitup(url) {
+if (newwindow.location && !newwindow.closed) {
+    newwindow.location.href = url; 
+    newwindow.focus(); } 
+else { 
+    newwindow=window.open(url,'htmlname','width=404,height=316,resizable=1');} 
+}
+
+function tidy() {
+if (newwindow.location && !newwindow.closed) { 
+   newwindow.close(); } 
+}
+
+// Based on JavaScript provided by Peter Curtis at www.pcurtis.com
+// http://www.pcurtis.com/popup.htm
+</SCRIPT>
+
+</HEAD> 
+<BODY onUnload="tidy()" > 
+<A HREF="javascript:popitup('images/gallary/a2.jpg')"><IMG SRC="images/gallary/a1.jpg" WIDTH="160" BORDER="0" HEIGHT="120" HSPACE="10" VSPACE="5" ALT="Decoration on the Sri Mariamman Temple" TITLE="Decoration on the Sri Mariamman Temple" ALIGN=left></A> 
+</BODY>
+</HTML>
